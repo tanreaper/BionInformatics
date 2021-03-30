@@ -16,19 +16,19 @@ This tool uses various Machine Learning Algorithms to identify different hosts f
 ## Setting up the git branches and working with it
 
 1. The initial branch would be master branch
-2. Create a new branch using **git checkout -b <yourname-dev> example: git checkout -b paul_dev**
-3. Then run this command to track the git hub branch **git push --set-upstream origin <yourname-dev>**
+2. Create a new branch using **git checkout -b yourname-dev example: git checkout -b paul_dev**
+3. Then run this command to track the git hub branch **git push --set-upstream origin yourname-dev**
 4. The above command is run only once to set up the new branch
 
 ## The below steps are for pushing in any new changes
 
-1. Any new changes must be staged **git add <filename>**
+1. Any new changes must be staged **git add filename**
 2. Then it is commited with **git commit -m "your commit message here"**
 3. Then use **git push command** to push your changes from your local branch to remote branch
 4. All the new changes pushed must be merged with pre-prod branch. 
 5. Use **git checkout pre-prod** to checkout to pre-prod
 6. Then use **git pull** to pull any new changes in the pre-prod (very important step! or you can get merge conflict)
-7. Then use **git merge <yourbranch>** to merge your changes with pre-prod branch.
+7. Then use **git merge yourbranch** to merge your changes with pre-prod branch.
 8. Then use **git push**
 
 ## Branches
