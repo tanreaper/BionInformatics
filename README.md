@@ -17,7 +17,7 @@ This tool uses various Machine Learning Algorithms to identify different hosts f
 
 1. The initial branch would be master branch
 2. Create a new branch using **git checkout -b yourname-dev example: git checkout -b paul_dev**
-3. Then run this command to track the git hub branch **git push --set-upstream origin yourname-dev**
+3. Then run this command to track the github branch **git push --set-upstream origin yourname-dev**
 4. The above command is run only once to set up the new branch
 
 ## The below steps are for pushing in any new changes
